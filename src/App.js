@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div style={{ padding: "20px" }}>
-      <h1>My React Blog</h1>
+      <h1>BD Copy News</h1>
       {posts.map((post, index) => (
         <pre key={index}>{post}</pre>
       ))}
